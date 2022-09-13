@@ -1,4 +1,4 @@
-CFLAGS = -std=c++17
+CFLAGS = -std=c++17 -ggdb
 LDFLAGS = -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl
 
 .PHONY: main
